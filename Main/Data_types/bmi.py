@@ -1,4 +1,6 @@
 height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 
-print(weight / (height ** 2))
+bmi = (weight / float(height) ** 2)
+bmi_less = int(bmi)
+print(bmi_less)
