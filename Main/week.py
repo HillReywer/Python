@@ -10,3 +10,5 @@ days = years * 365
 
 message = f"You have {days} days, {weeks} weeks, and {years} years remaining"
 print(message)
+
+print(6 + 4 / 2 - (1 * 2))
